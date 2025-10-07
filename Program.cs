@@ -1,10 +1,9 @@
-﻿namespace Prvi_projekt
-{
-    internal class Program
+﻿    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+        Tocka a = new Tocka();
+
+
         }
     }
-}
