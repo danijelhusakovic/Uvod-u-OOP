@@ -1,4 +1,4 @@
-﻿public class Kruznica
+﻿public class Kruznica : GeometrijskiLik
 {
     public Tocka s;
     public double radius;
@@ -9,13 +9,13 @@
         this.radius = radius;
     }
 
-    public double Opseg()
+    public override double Opseg()
     {
-        return 0;
+        throw new NotImplementedException();
     }
 
-    public double Povrsina()
+    public override double Povrsina()
     {
-        return 0;
+        throw new NotImplementedException();
     }
 }
