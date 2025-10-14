@@ -8,4 +8,9 @@
         this.a = a;
         this.b = b;
     }
+
+    public double Duljina()
+    {
+        return 0;
+    }
 }

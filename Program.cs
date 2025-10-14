@@ -6,6 +6,8 @@
         Tocka a = new Tocka(0, 0);
         Tocka b = new Tocka(1, 3);
 
+        Kruznica k = new Kruznica(a, 10);
+
         Duzina ab = new Duzina(a, b);
 
         }
